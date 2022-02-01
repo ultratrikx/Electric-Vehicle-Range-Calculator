@@ -1,14 +1,17 @@
 {
-  "name": "@example/starter",
-  "version": "0.0.1",
-  "private": true,
+  "name": "ev-range-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules src/index.mjs"
   },
-  "devDependencies": {
-    "astro": "^0.22.13"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^10.1.0",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.2.0"
   }
 }
