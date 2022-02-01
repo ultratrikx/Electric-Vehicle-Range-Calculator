@@ -31,7 +31,7 @@ readline.question(
                                 if (equation > 100) {
                                     let equationDecimal = equation / 100
                                     let finalRange = finalMPGe * equationDecimal
-                                    console.log(`You can expect ${finalRange.toLocaleString()}km of range with a full charge`)
+                                    console.log(`You can expect ${finalRange.toLocaleString()}km of range with ${finalMPGe}% battery.`)
                                 } else {
 
                                 
@@ -42,7 +42,7 @@ readline.question(
 
                                 
                                 let finalRange = finalMPGe * equationDecimal
-                                console.log(`You can expect ${finalRange.toLocaleString()}km of range with a full charge`)
+                                console.log(`You can expect ${finalRange.toLocaleString()}km of range with ${finalMPGe}% battery.`)
                                 }
 
                             } else {
